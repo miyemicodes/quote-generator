@@ -107,7 +107,7 @@ body{
 }
 
 
-.social-link .icons:is(:hover,:after){
+.social-link .icons:is(:hover,:focus){
     background: hsl(231, 83%, 25%);
     color: hsl(240, 16%, 91%);
 }
@@ -122,3 +122,9 @@ body{
     border-radius:10px;
     font-size: 14px;
 }
+
+ button.loading:is(:hover,:focus){
+    opacity:0.8;
+    pointer-events: none;
+}
+
