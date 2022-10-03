@@ -16,7 +16,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background-color:hsl(225, 24%, 27%);
-    font-family: "Helvetica Neue",Helvetica,Arial Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;;
 }
 
 .wrapper{
@@ -60,6 +60,7 @@ body{
     font-size:15px;
     text-align: center;
     word-break: break-all;
+    font-family: 'Gabriela', serif;
 }
 
 .content .author {
